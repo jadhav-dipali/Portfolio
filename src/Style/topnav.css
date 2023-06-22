@@ -1,0 +1,48 @@
+#top-nav{
+    display: flex;
+    flex: 1;
+    height: 15vh;
+    margin: 20px;
+    justify-content: space-between;
+    position:sticky;
+}
+
+#nav-right ul{
+      display: flex;
+      margin-top: 5vh;
+      flex: 10;
+      font-weight: 400;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-size: large;
+      font-weight: bold;
+      
+}
+#nav-right ul li{
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 40px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#nav-right ul li:hover{
+    color: rgb(231, 128, 10);
+    text-shadow: 2px 2px 3px black;
+    font-size: x-large;
+    font-weight:bolder ;
+}
+#dipali-name{
+    font-size: 35px;
+    font-weight: bold;
+    color:  rgb(231, 128, 10);
+    text-shadow: 2px 2px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
