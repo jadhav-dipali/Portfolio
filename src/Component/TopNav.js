@@ -1,4 +1,5 @@
 import "../Style/topnav.css"
+import Skill from "./Skills"
 
 export default function TopNav(){
     return<div id="top-nav">
