@@ -1,0 +1,49 @@
+#project-container{
+    width:80%;
+    margin-left: 10%;
+    border: 2px solid;
+}
+.image-of-the-project{
+    height: 200px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+#project{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+#project-name{
+    margin-left: 10%;
+    color:rgb(231, 128, 10);
+    text-shadow: 1px 1px 3px black;
+}
+.project-wrap-one-project-info-image{
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    
+}
+.info-of-the-project{
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: -25px;
+}
+.code-of-the-project-git{
+    height: 25px;
+}
+.info-of-the-project a{
+ text-decoration: none;
+ font-weight: bold;
+ color: black;
+ margin-right: 30px;
+}
+.para-of-the-info-the{
+    color: gray;
+    font-weight: bold;
+}
+.name-of-the-project{
+    font-size: large;
+    font-weight: bold;
+}
