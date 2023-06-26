@@ -55,7 +55,7 @@ export default function Skill() {
 
 
    ];
-   return <>
+   return <div id="skills">
       <h1 id="skill-name">Skills</h1>
       <div id="Skill-container">
          <br></br>
@@ -78,5 +78,5 @@ export default function Skill() {
             </div>
          </div>
       </div>
-   </>
+   </div>
 }
