@@ -31,6 +31,7 @@ padding: 20px;
 }
 .code-of-the-project-git{
     height: 25px;
+    
 }
 .info-of-the-project a{
  text-decoration: none;
@@ -55,15 +56,15 @@ padding: 20px;
     }
     .name-of-the-project{
         position: absolute;
-        margin-top: -200px;
+        margin-top: -150px;
     }
     .image-of-the-project{
-        height: 150px;
+        height: 100px;  
         border: 1px solid;
         border-radius: 4px;
     }
     .para-of-the-instaclone-project{
-        margin-top: 280px;
+        margin-top: 200px;
     }
     .instaclone-image-project{
         position: absolute;
@@ -77,7 +78,14 @@ padding: 20px;
     }
     .para-of-the-info-the{
         color: gray;
-        font-weight: bold;
+        font-weight: normal;
         text-align: left;
+        margin-left: -40px;
+    }
+    .code-of-the-project-git{
+        margin-left: -20px;   
+    }
+    .code-os-thhe-project-livedemo {
+        margin-left: -30px;
     }
 }

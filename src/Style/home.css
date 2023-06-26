@@ -97,7 +97,7 @@
         border-radius: 50%;
     }
     #info-about-me-in-small{
-        margin-top: 180px;
+        margin-top: 80%;
     }
     .png-attitude{
         height: 120px;
@@ -106,14 +106,20 @@
     }
     
     #info-self-intro{
-        top: 80px;
+        top: 150px;
+        left:-70px;
         border-radius: 10px;
         margin-bottom: 10%;
         text-align: center;
         position: absolute;
+        height: 50px;
+        width: auto;
     }
     .png-home{
-        height: 60px;
+        height: 50px;
         margin-right: 20px;
+    }
+    #titleofme{
+        font-weight:bold;
     }
 }

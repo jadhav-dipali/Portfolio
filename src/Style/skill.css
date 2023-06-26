@@ -80,11 +80,24 @@
         display: flex;
         flex-wrap: wrap;
          gap:10px;
-         margin-left: 6%;
+         margin-left: 4%;
        margin-top:450px;
     }
     #smart-card-make{
        position: absolute;
-       top:0
+       top:0;
+       height: 400px;
+       width: 250px;
+    
+    }
+    #skill-contaner-box{
+        width: 80px;
+        height: 120px;
+        box-shadow: 3px 3px 10px black;
+    }
+    #skill-images-icon{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
     }
 }
