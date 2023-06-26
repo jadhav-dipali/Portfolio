@@ -62,4 +62,12 @@
     #nav-right ul{
         gap: 10px;
     }
+    #nav-right ul li a{
+       font-size: medium;
+     
+   }
+   #nav-right{
+    margin-left: -25px;
+   }
+
 }
