@@ -19,6 +19,10 @@
       font-weight: bold;
       
 }
+#nav-right ul li a{
+    text-decoration: none;
+    color: black;
+}
 #nav-right ul li{
     list-style: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,7 +30,7 @@
     font-size: larger;
     font-weight: bolder;
 }
-#nav-right ul li:hover{
+#nav-right ul li a:hover{
     color: rgb(231, 128, 10);
     text-shadow: 2px 2px 3px black;
     font-size: x-large;
@@ -45,4 +49,17 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+@media only screen and (min-width: 200px) and (max-width:600px){
+    #top-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-right ul li{
+         margin-right: 2px;
+      
+    }
+    #nav-right ul{
+        gap: 10px;
+    }
 }

@@ -8,7 +8,8 @@ import profilepic from "../images/profilepic-1 (2).png"
 import crown from "../images/crown.png"
 
 export default function Home(){
-    return<div id="home-container">
+    return<div id="homes">
+    <div id="home-container">
     <div id="left-home">
         <h1 id="hey-i-am-home">Hey ! I Am </h1>
         <h1 id="name-home-at-name">Dipali Jadhav</h1>
@@ -23,6 +24,7 @@ export default function Home(){
     <div id="info-self-intro">
         <img src={crown}className="png-home-croun"/>
         <span id="titleofme">Full-Stack Web Developer</span>
+    </div>
     </div>
     </div>
     </div>

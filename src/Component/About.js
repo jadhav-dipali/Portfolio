@@ -2,7 +2,7 @@ import about from "../images/abc.png"
 import "../Style/about.css"
 
 export default function About(){
-    return<>
+    return<div id="about">
     <h1 id="about-name">About</h1>
     <div id="about-container">
         <div id="about-left"><img src={about}></img></div>
@@ -11,5 +11,5 @@ export default function About(){
             <p id="about-para-me">An Ambitious individual who is good at problem-solving and programming, with an emphasis on writing clean and maintainable code. Experienced with data structures/algorithms and designing optimal solutions, aspiring to make a career in software engineering with a focus on full-stack development.</p>
         </div>
     </div>
-    </>
+    </div>
 }
