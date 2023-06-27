@@ -36,7 +36,7 @@ export default function Contact(){
     <h1 id="conatact-name">Contact Me</h1>
     <div id="contact-container">
     <div id="left-contact">
-        <h3>Don't be shy! Hit me up! 👇</h3>
+        <h3>Don't be shy! Hit me up! For Hire Me👇</h3>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label><br></br>
       <input type="text" name="user_name" placeholder='Enter Your Name' onChange={(e)=>setData({...data,name:e.target.value})} value={data.name} required/><br></br>
